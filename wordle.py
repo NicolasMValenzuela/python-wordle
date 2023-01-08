@@ -45,7 +45,7 @@ def seleccionador(lista):
         while lista2.count(elemento) > 1:
             lista2.remove(elemento)
 
-    palabra = lista2[randint(0, len(lista2))].lower()
+    palabra = lista2[randint(0, len(lista2)-1)].lower()
 
     return palabra
 
